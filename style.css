@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --color: #8b8b8b;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    min-height: 100vh;
+    background: var(--color);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    background: #69a9d8;
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    border-radius: 15px;
+}
+
+.container .box.shadow1 {
+    box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.2),
+        5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .box.shadow2 {
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.2),
+        15px 15px 15px rgba(0, 0, 0, 0.2),
+        inset -10px -10px 10px rgba(255, 255, 255, 0.2),
+        inset 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.container .box.shadow3 {
+    box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3),
+        inset -4px -4px 5px rgba(0, 0, 0, 0.2),
+        inset -10px -10px 10px rgba(255, 255, 255, 0.2),
+        inset 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .box.shadow4 {
+    border: 10px solid #69a9d8;
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.2),
+        15px 15px 15px rgba(0, 0, 0, 0.2),
+        inset -10px -10px 10px rgba(255, 255, 255, 0.2),
+        inset 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
