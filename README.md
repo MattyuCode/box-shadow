@@ -2,7 +2,7 @@
 
 <img src="Captura.PNG" alt="">
 
-* Code-Box-Shadow
+> Code-Box-Shadow
 
 .container .box.shadow1 {
     box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.2),
